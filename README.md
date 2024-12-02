@@ -1,1 +1,3 @@
-# Gang-of-Four-Java
+## Gang-of-Four-Java
+
+> Presentation URL here..
