@@ -1,4 +1,4 @@
-package oop.solid;
+package solid;
 
 // A fat interface
 interface MFP {

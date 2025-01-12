@@ -1,4 +1,4 @@
-package oop.elements;
+package elements;
 
 class Calculator {
 

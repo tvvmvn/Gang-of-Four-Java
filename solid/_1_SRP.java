@@ -1,5 +1,5 @@
 // Class should be responsible for only one task.
-package oop.solid;
+package solid;
 
 class Chef {
   public void cook() {};

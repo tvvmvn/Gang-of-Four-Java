@@ -1,4 +1,4 @@
-package oop.solid;
+package solid;
 
 interface Toy {
   public void use();

@@ -1,4 +1,4 @@
-package oop.solid;
+package solid;
 
 class Rectangle {
   public int width;

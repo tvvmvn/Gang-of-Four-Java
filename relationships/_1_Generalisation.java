@@ -1,4 +1,4 @@
-package oop.relationships;
+package relationships;
 
 class Coffee {
 

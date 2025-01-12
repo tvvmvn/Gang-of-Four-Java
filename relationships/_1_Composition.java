@@ -1,4 +1,4 @@
-package oop.relationships;
+package relationships;
 
 /*
 In the UML, aggregation and composition are defined as 

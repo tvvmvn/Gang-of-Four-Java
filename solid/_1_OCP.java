@@ -1,4 +1,4 @@
-package oop.solid;
+package solid;
 
 class PaymentProcessor {
   public void withCreditCard() {}

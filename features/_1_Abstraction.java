@@ -1,4 +1,4 @@
-package oop.features;
+package features;
 
 // Abstract class
 abstract class Animal {

@@ -1,4 +1,4 @@
-package oop.features;
+package features;
 
 class Capsule {
   

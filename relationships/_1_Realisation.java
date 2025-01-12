@@ -1,4 +1,4 @@
-package oop.relationships;
+package relationships;
 
 // Abstract class or interface(Java)
 interface Flyable {
