@@ -3,12 +3,9 @@ package pack00relationships.example00generalization;
 public class Main {
   public static void main(String[] args) {
 
-    // Generalisation
-    Coffee americano = new Americano("Columbia", "2l");
-    Coffee latte = new Latte("Columbia", "2l", "Milk");
-
-    System.out.println(americano);
-    System.out.println(latte);
+    // Generalisation 
+    Person student = new Student("John", "Doe", 3);
+    Person employee = new Employee("Jane", "Doe", "Marketing");
   }
 }
 

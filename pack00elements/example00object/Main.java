@@ -3,17 +3,13 @@ package pack00elements.example00object;
 class Main {
   public static void main(String[] args) {
 
-    // Instances of Car
-    Car avante = new Car();
-    avante.engine = "Gasoline";
-    avante.run();
-    
-    Car xm3Hybrid = new Car();
-    xm3Hybrid.engine = "Hybrid";
-    xm3Hybrid.run();
+    // Instances 
+    Person person = new Person();
+
+    person.firstName = "John";
+    person.lastName = "Doe";
+    person.age = 30;
+
+    System.out.println(person);
   }
 }
-
-// Output
-// Running powered by Gasoline
-// Running powered by Hybrid

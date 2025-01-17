@@ -2,6 +2,7 @@ package pack00relationships.example00aggregation;
 
 // A printer can be shared with other computers.
 public class Printer {
+
   public String model;
 
   public Printer(String model) {
@@ -9,6 +10,6 @@ public class Printer {
   }
 
   public String toString() {
-    return String.format("[model='%s']", model);
+    return String.format("Printer[model='%s']", model);
   }
 };

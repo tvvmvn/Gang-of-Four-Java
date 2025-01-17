@@ -3,13 +3,17 @@ package pack00features.example00encapsulation;
 public class Main {
   public static void main(String[] args) {
     
-    Capsule capsule = new Capsule();
+    Person person = new Person();
 
-    capsule.setName("John");
+    // this causes error
+    // person.salary = 200;
+    // System.out.println(person.salary);
 
-    System.out.println(capsule.getName());
+    person.setSalary(200);
+
+    System.out.println(person.getSalary());
   }
 }
 
 // Output
-// John
+// 200

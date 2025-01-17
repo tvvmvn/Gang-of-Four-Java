@@ -1,5 +1,8 @@
 package pack00solid.example00isp;
 
-public class MFP {
-  
+// Break down the MFP interface into smaller interfaces.
+public interface MFP {
+  // scanner
+  // printer
+  // fax
 }

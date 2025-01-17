@@ -5,11 +5,10 @@ class Main {
 
     Calculator cal = new Calculator();
 
-    // objects sends messages to other objects.
-    // (Ask other objects to process tasks)
+    // messages (request to object from outside)
     int r = cal.add(1, 2);
 
-    System.out.print("x + y = ");
+    System.out.print("1 + 2 = ");
     System.out.print(r);
   }
 }

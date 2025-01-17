@@ -1,11 +1,10 @@
 package pack00relationships.example00aggregation;
 
-public class Computer {
+public class ComputerA {
+
   public Printer printer;
 
-  public Computer(Printer printer) {
+  public ComputerA(Printer printer) {
     this.printer = printer;
   }
-
-  // other parts..
 };

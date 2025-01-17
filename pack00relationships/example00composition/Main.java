@@ -10,10 +10,8 @@ of classifying part-whole-relationships.
 public class Main {
   public static void main(String[] args) {
     
-    AvanteEngine avanteEngine = new AvanteEngine();
+    AvanteEngine engine = new AvanteEngine();
 
-    Avante avante = new Avante();
-    
-    avante.engine = avanteEngine;
+    Avante avante = new Avante(engine);
   }
 }

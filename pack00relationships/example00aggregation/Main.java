@@ -9,11 +9,10 @@ of classifying part-whole-relationships.
 public class Main {
   public static void main(String[] args) {
     
-    Printer xerox = new Printer("P-115");
-
-    Computer computer = new Computer(xerox);
+    Printer printer = new Printer("HP p-100");
     
-    System.out.println(computer.printer);
+    ComputerA A = new ComputerA(printer);
+    ComputerB B = new ComputerB(printer);
   }
 }
 
